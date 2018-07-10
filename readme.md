@@ -1,3 +1,28 @@
+Instalation:
+Be on www folder
+
+git clone - blah blah
+
+cd project name
+
+composer install
+
+php artisan vendor:publish
+
+cp .env.example .env
+
+php artisan key:generate
+
+edit .env con la info de tu bd
+
+create database
+
+php artisan migrate
+
+php artisan db:seed 
+
+y listo,ahi te deberia correr sin peos
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
