@@ -1,23 +1,44 @@
 Instalation:
-Be on www folder
 
-git clone - blah blah
+Abre laragon. Dale donde dice Start All
 
-cd project name
+Dale donde dice Console.
+
+Ponte en la carpeta www. 
+Escribe:
+
+git clone https://github.com/Porcar/tesisjose.git
+
+una vez termine de bajarse escribe:
+
+cd tesisjose
+
+luego escribe:
 
 composer install
 
+luego escribe:
+
 php artisan vendor:publish
+
+luego escribe:
 
 cp .env.example .env
 
+luego escribe:
+
 php artisan key:generate
 
+Luego abre el archivo .env y lo editas para la configuracion de tu BD. 
 edit .env con la info de tu bd
 
-create database
+Luego creas la BD
+
+luego escribe:
 
 php artisan migrate
+
+luego escribe:
 
 php artisan db:seed 
 
